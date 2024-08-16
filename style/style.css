@@ -119,6 +119,45 @@ main {
     margin-top: 130px;
  }
 
+ /* feature will enjoy style */
+.feature-will-enjoy {
+    gap: 140px;
+}
+ 
+ .feature-will-enjoy-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+ }
+
+ #feature-will-enjoy-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+ }
+
+ .feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+ }
+
+ #experience-badge {
+    z-index: 1;
+    padding: 45px 42px;
+    margin-top: -1000px;
+    margin-left: -70px;
+ }
+
+ #experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+ }
+
+ #experience-description {
+    font-size: 1.5rem;
+ }
+
  /* some facts */
  .fact-container {
     display: grid;
@@ -182,7 +221,7 @@ main {
 
   /* Rresponsive media query */
   @media screen and (max-width: 576px) {
-    .navbar, .teams {
+    .navbar, .teams, .feature-will-enjoy {
         flex-direction: column;
     }
 
@@ -192,6 +231,20 @@ main {
 
     .our-features {
         margin: 0 auto;
+    }
+
+    .architect-girl {
+        width: 100%;
+    }
+
+    #experience-badge {
+        margin-left: 0;
+        padding: 10px;
+        /* text-align: center; */
+    }
+
+    .architect-btn {
+        text-align: center;
     }
 
     .fact-container {
